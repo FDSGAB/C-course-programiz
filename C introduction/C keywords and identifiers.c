@@ -31,7 +31,7 @@ default,	goto,	sizeof,	volatile
 const,	float,	short,	unsigned
 
 
-Regras para criar identificadores (variáveis):
+Regras para criar identificadores (variáveis ou constantes):
 1. Podem ser usados tanto letras maiúsculas como minúsculas e números, além de
 underlines ou underscores.
 2. O primeiro caracter do identificador deve ser um underline ou letra.
