@@ -100,6 +100,55 @@ arrays, pointers(ponteiros), tipos de função, estruturas etc.
 
 #include <stdio.h>
 
+int remain () {
+  /*
+
+  Data types
+  int       (4bytes)  | %d for printing
+  char      (1 byte)  | %c for printing
+  double    (8 bytes) | %lf for printing
+  float     (4 bytes) | %f for printing
+
+  */
+
+  //int
+  int age = 10;
+  printf("Age: %d", age);
+
+
+  //double
+  double number = 12.45;
+  printf("%lf", number);
+  printf("\n%.2lf", number);
+
+  //float
+  floar number1 = 10.9f; //f serve para indicar que o numero eh float
+  print("\n%f", number1)
+  print("\n%.1f", number1)
+
+
+  //Guardando valores exponenciais
+  double number2 = 5.5e6;
+  printf("\n%lf", number2);
+
+  //char
+  char character = '2';
+  printf("\n%c", character);
+  printf("\n%d", character); //devolve o número inteiro que representa o caracter
+
+
+  //funcao sizeof
+  int idade;
+  double numero;
+
+  printf("int size = %zu", sizeof(idade));
+  printf("\ndouble size = %zu", sizeof(number) ;
+
+
+
+
+}
+
 
 int main () {
 
