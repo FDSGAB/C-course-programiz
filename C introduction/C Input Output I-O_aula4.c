@@ -28,14 +28,7 @@ signed char	                %c
 unsigned char	              %c
 long double               	%Lf
 
-
-
-
 */
-
-
-
-
 
 
 
