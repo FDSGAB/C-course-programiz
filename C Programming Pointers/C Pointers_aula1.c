@@ -156,6 +156,8 @@ p (*P). Para evitar confusão, é possível passar a seguinte instrução:
 
 int* p = &c;
 
+SEMPRE INICIALIZE PONTEIROS, POIS SENÃO ERROS SÂO GERADOS!!!!!
+
 */
 
 #include <stdio.h>
